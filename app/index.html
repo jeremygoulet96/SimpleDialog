@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+    <title>SimpleDialog - Demo</title>
+</head>
+<body>
+<main>
+    <section>
+        <h1>SimpleDialog - Examples</h1>
+        <br />
+        <button class="button--dialog" data-dialog="dialog1">Open Dialog</button>
+        <button class="button--dialog" data-dialog="dialog2">Open Modal</button>
+    </section>
+    <br />
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis, leo eu accumsan ultricies, risus ex cursus ex, eget imperdiet metus lectus vitae dui. Cras quis nunc sem. Donec tincidunt tincidunt imperdiet. Donec efficitur imperdiet dui in consequat. In hac habitasse platea dictumst. Aenean ligula dolor, laoreet a dolor sed, elementum semper tellus. Fusce non nibh nec mi lobortis ultricies. Nunc urna quam, semper vestibulum metus nec, euismod scelerisque diam. Ut mollis nec justo tempus auctor. Curabitur nec vulputate elit. Aliquam erat volutpat. Quisque maximus libero diam, sit amet aliquet leo pretium ac.</p>
+    </section>
+    <br />
+    <form>
+        <label for="input1">Text1</label>
+        <input type="text" id="input1">
+        <br/><br/>
+        <label for="input2">Text2</label>
+        <input type="text" id="input2">
+        <br/><br/>
+        <label for="input3">Text3</label>
+        <input type="text" id="input3">
+        <br/><br/>
+        <label for="input4">Text4</label>
+        <input type="text" id="input4">
+    </form>
+    <br />
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis, leo eu accumsan ultricies, risus ex cursus ex, eget imperdiet metus lectus vitae dui. Cras quis nunc sem. Donec tincidunt tincidunt imperdiet. Donec efficitur imperdiet dui in consequat. In hac habitasse platea dictumst. Aenean ligula dolor, laoreet a dolor sed, elementum semper tellus. Fusce non nibh nec mi lobortis ultricies. Nunc urna quam, semper vestibulum metus nec, euismod scelerisque diam. Ut mollis nec justo tempus auctor. Curabitur nec vulputate elit. Aliquam erat volutpat. Quisque maximus libero diam, sit amet aliquet leo pretium ac.</p>
+    </section>
+    <br />
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis, leo eu accumsan ultricies, risus ex cursus ex, eget imperdiet metus lectus vitae dui. Cras quis nunc sem. Donec tincidunt tincidunt imperdiet. Donec efficitur imperdiet dui in consequat. In hac habitasse platea dictumst. Aenean ligula dolor, laoreet a dolor sed, elementum semper tellus. Fusce non nibh nec mi lobortis ultricies. Nunc urna quam, semper vestibulum metus nec, euismod scelerisque diam. Ut mollis nec justo tempus auctor. Curabitur nec vulputate elit. Aliquam erat volutpat. Quisque maximus libero diam, sit amet aliquet leo pretium ac.</p>
+    </section>
+    <br />
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis, leo eu accumsan ultricies, risus ex cursus ex, eget imperdiet metus lectus vitae dui. Cras quis nunc sem. Donec tincidunt tincidunt imperdiet. Donec efficitur imperdiet dui in consequat. In hac habitasse platea dictumst. Aenean ligula dolor, laoreet a dolor sed, elementum semper tellus. Fusce non nibh nec mi lobortis ultricies. Nunc urna quam, semper vestibulum metus nec, euismod scelerisque diam. Ut mollis nec justo tempus auctor. Curabitur nec vulputate elit. Aliquam erat volutpat. Quisque maximus libero diam, sit amet aliquet leo pretium ac.</p>
+    </section>
+    <br />
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis, leo eu accumsan ultricies, risus ex cursus ex, eget imperdiet metus lectus vitae dui. Cras quis nunc sem. Donec tincidunt tincidunt imperdiet. Donec efficitur imperdiet dui in consequat. In hac habitasse platea dictumst. Aenean ligula dolor, laoreet a dolor sed, elementum semper tellus. Fusce non nibh nec mi lobortis ultricies. Nunc urna quam, semper vestibulum metus nec, euismod scelerisque diam. Ut mollis nec justo tempus auctor. Curabitur nec vulputate elit. Aliquam erat volutpat. Quisque maximus libero diam, sit amet aliquet leo pretium ac.</p>
+    </section>
+    <br />
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis, leo eu accumsan ultricies, risus ex cursus ex, eget imperdiet metus lectus vitae dui. Cras quis nunc sem. Donec tincidunt tincidunt imperdiet. Donec efficitur imperdiet dui in consequat. In hac habitasse platea dictumst. Aenean ligula dolor, laoreet a dolor sed, elementum semper tellus. Fusce non nibh nec mi lobortis ultricies. Nunc urna quam, semper vestibulum metus nec, euismod scelerisque diam. Ut mollis nec justo tempus auctor. Curabitur nec vulputate elit. Aliquam erat volutpat. Quisque maximus libero diam, sit amet aliquet leo pretium ac.</p>
+    </section>
+</main>
+<div id="dialogLayer" class="dialogLayer--hidden">
+    <div id="dialog1" role="dialog" class="dialog dialog--modal">
+        <div class="dialog__container">
+            <header class="dialog__header">
+                <div class="header__container">
+                    <h2 class="dialog__title">Dialog's title</h2>
+                    <h3 class="dialog__subtitle">Dialog's subtitle</h3>
+                </div>
+            </header>
+            <div class="dialog__content">
+                <p>Dialog's content</p>
+                <a href="#">Link</a>
+                <br />
+                <form>
+                    <label for="input5">Text1</label>
+                    <input type="text" id="input5">
+                    <br/><br/>
+                    <label for="input6">Text2</label>
+                    <input type="text" id="input6">
+                    <br/><br/>
+                    <label for="input7">Text3</label>
+                    <input type="text" id="input7">
+                    <br/><br/>
+                    <label for="input8">Text4</label>
+                    <input type="text" id="input8">
+                </form>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis, leo eu accumsan ultricies, risus ex cursus ex, eget imperdiet metus lectus vitae dui. Cras quis nunc sem. Donec tincidunt tincidunt imperdiet. Donec efficitur imperdiet dui in consequat. In hac habitasse platea dictumst. Aenean ligula dolor, laoreet a dolor sed, elementum semper tellus. Fusce non nibh nec mi lobortis ultricies. Nunc urna quam, semper vestibulum metus nec, euismod scelerisque diam. Ut mollis nec justo tempus auctor. Curabitur nec vulputate elit. Aliquam erat volutpat. Quisque maximus libero diam, sit amet aliquet leo pretium ac.</p>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis, leo eu accumsan ultricies, risus ex cursus ex, eget imperdiet metus lectus vitae dui. Cras quis nunc sem. Donec tincidunt tincidunt imperdiet. Donec efficitur imperdiet dui in consequat. In hac habitasse platea dictumst. Aenean ligula dolor, laoreet a dolor sed, elementum semper tellus. Fusce non nibh nec mi lobortis ultricies. Nunc urna quam, semper vestibulum metus nec, euismod scelerisque diam. Ut mollis nec justo tempus auctor. Curabitur nec vulputate elit. Aliquam erat volutpat. Quisque maximus libero diam, sit amet aliquet leo pretium ac.</p>
+                <br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis, leo eu accumsan ultricies, risus ex cursus ex, eget imperdiet metus lectus vitae dui. Cras quis nunc sem. Donec tincidunt tincidunt imperdiet. Donec efficitur imperdiet dui in consequat. In hac habitasse platea dictumst. Aenean ligula dolor, laoreet a dolor sed, elementum semper tellus. Fusce non nibh nec mi lobortis ultricies. Nunc urna quam, semper vestibulum metus nec, euismod scelerisque diam. Ut mollis nec justo tempus auctor. Curabitur nec vulputate elit. Aliquam erat volutpat. Quisque maximus libero diam, sit amet aliquet leo pretium ac.</p>
+            </div>
+            <footer class="dialog__footer">
+                <div class="dialog__actions">
+                    <button class="dialog__button dialog__button--cancel" data-button="cancel">Cancel</button>
+                    <button class="dialog__button dialog__button--true" data-button="true">Confirm</button>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div id="dialog2" role="dialog" class="dialog dialog--alert">
+        <div class="dialog__container">
+            <header class="dialog__header">
+                <div class="header__container">
+                    <h2 class="dialog__title">Alert!</h2>
+                </div>
+            </header>
+            <div class="dialog__content">
+                <p>Do you want to do that?</p>
+            </div>
+            <footer class="dialog__footer">
+                <div class="dialog__actions">
+                    <button class="dialog__button dialog__button--false" data-button="false">No</button>
+                    <button class="dialog__button dialog__button--true" data-button="true">Yes</button>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+<script>window.jQuery || document.write('<script src="../bower_components/jquery/dist/jquery.min.js">\x3C/script>')</script>
+
+<script src="../bower_components/requirejs/require.js" data-main="assets/js/main.js"></script>
+
+</body>
+</html>
