@@ -1,0 +1,31 @@
+# Ignore any big folder #
+#########################
+bower_components/
+node_modules/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# PhpStorm Cache
+.idea/
+
+# Sass Cache remove
+.sass-cache/
+
+# Ignore CSS & Map File
+*.css
+*.map
+
+# Ignore Linter cache file
+*.eslintrc
+
+# Ignore Gulpfile
+gulpfile.js

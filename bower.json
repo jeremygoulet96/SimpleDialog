@@ -1,0 +1,21 @@
+{
+  "name": "simpledialog",
+  "description": "Create dialogs and modals easily!",
+  "main": "index.js",
+  "author": "Jérémy Goulet",
+  "license": "MIT",
+  "homepage": "https://github.com/jeremygoulet96/SimpleDialog",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-scss": "normalize.scss#^7.0.0",
+    "jquery": "^3.2.1",
+    "requirejs": "^2.3.5"
+  }
+}
