@@ -179,7 +179,7 @@ export class SimpleDialog {
      */
     public triggerKeyboard(e: any):void {
         // ESC key
-        if (e.keyCode == this.keyCode.ESC) {
+        if (e.keyCode == this.keyCode.SPACE) {
             this.closeDialog(e);
         }
     }

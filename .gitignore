@@ -27,5 +27,10 @@ Thumbs.db
 # Ignore Linter cache file
 *.eslintrc
 
-# Ignore Gulpfile
-gulpfile.js
+# Ignore JS files
+*.js
+
+# Ignore Typings files
+tsconfig.json
+typings.json
+app/typings

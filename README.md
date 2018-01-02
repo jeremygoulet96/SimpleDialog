@@ -22,9 +22,23 @@ div#dialogLayer     // Two possible states:
 ```
 
 ### Emmett
-```
-div#dialogLayer.dialogLayer--hidden>div[role='dialog'].dialog.dialog--modal#dialog$*1>div.dialog__container>(header.dialog__header>h2.dialog__title{Title})+(div.dialog__content>p{Text})+(footer.dialog__footer>(div.dialog__actions>button.dialog__button.dialog__button--cancel{Cancel}))
-```
+`div#dialogLayer.dialogLayer--hidden>div[role='dialog'].dialog.dialog--modal#dialog$*1>div.dialog__container>(header.dialog__header>h2.dialog__title{Title})+(div.dialog__content>p{Text})+(footer.dialog__footer>(div.dialog__actions>button.dialog__button.dialog__button--cancel{Cancel}))`
+
+## Installation for Devs
+1. Install typings  
+`sudo npm install typings -g`
+
+2. Download jquery.d.ts (run this command in the app folder)  
+`typings install dt~jquery --global --save`
+
+3. Install Node dependencies (run this command in the root folder)  
+`npm install`
+
+4. Install Bower dependencies (run this command in the root folder)  
+`bower install`
+
+5. Start Gulp to convert SASS to CSS (run this command in the app folder)  
+`gulp`
 
 ## WAI-ARIA Authoring Practices (taken from [W3C - WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices/#dialog_modal))
 A dialog is a window overlayed on either the primary window or another dialog window. Windows under a modal dialog are inert. That is, users cannot interact with content outside an active dialog window. Inert content outside an active dialog is typically visually obscured or dimmed so it is difficult to discern, and in some implementations, attempts to interact with the inert content cause the dialog to close.
