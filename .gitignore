@@ -1,6 +1,5 @@
 # Ignore any big folder #
 #########################
-bower_components/
 node_modules/
 
 # OS generated files #
