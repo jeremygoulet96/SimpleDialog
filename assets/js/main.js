@@ -1,0 +1,1 @@
+define(["require","exports","./SimpleDialog"],function(e,i,l){"use strict";Object.defineProperty(i,"__esModule",{value:!0}),new l.SimpleDialog("./")});
