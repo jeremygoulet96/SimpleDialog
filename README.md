@@ -31,7 +31,7 @@ div#dialogLayer     // Two possible states:
 2. Install Bower dependencies (run this command in the root folder)  
 `bower install`
 
-3. Start Gulp to convert SASS to CSS (run this command in the app folder)  
+3. Start Gulp to convert SASS to CSS and to Uglify JS (and to also start Browser-Sync) (run this command in the app folder)  
 `gulp`
 
 ## WAI-ARIA Authoring Practices (taken from [W3C - WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices/#dialog_modal))
