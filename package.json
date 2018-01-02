@@ -1,6 +1,6 @@
 {
   "name": "simpledialog",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create dialogs and modals easily!",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,7 @@
     "gulp-connect-php7": "^1.0.1",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.1",
-    "gulp-uglify": "^3.0.0",
-    "typings": "^2.1.1"
+    "gulp-uglify": "^3.0.0"
   },
   "homepage": "https://github.com/jeremygoulet96/SimpleDialog"
 }

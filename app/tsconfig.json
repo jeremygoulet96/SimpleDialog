@@ -1,0 +1,16 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "lib": ["es2015", "es2015.iterable", "dom"],
+    "module": "amd",
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "assets/js/",
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

@@ -20,17 +20,8 @@ Thumbs.db
 # Sass Cache remove
 .sass-cache/
 
-# Ignore CSS & Map File
-*.css
+# Ignore Map Files
 *.map
 
 # Ignore Linter cache file
 *.eslintrc
-
-# Ignore JS files
-*.js
-
-# Ignore Typings files
-tsconfig.json
-typings.json
-app/typings
